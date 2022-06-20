@@ -1,8 +1,8 @@
 FROM gitpod/workspace-full:latest
 
-WORKDIR /src/app
+#WORKDIR /src/app
 
-COPY ./foodadvisor/api/ /srv/app
+#COPY ./foodadvisor/api/ /srv/app
 
 RUN bash -c ". .nvm/nvm.sh     && nvm install 14     && nvm use 14     && nvm alias default 14"
 
